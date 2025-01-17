@@ -1,3 +1,11 @@
+# Exmple run scritp
+#
+# Find $ (dollar). Character escaping - \
+# docker run --rm yaml-finder --yaml_string "$(cat multi_level.yml)" ".\$.*"
+#
+# Find sometext
+# docker run --rm yaml-finder --yaml_string "$(cat multi_level.yml)" ".*sometext.*"
+
 import re
 import argparse
 from collections import defaultdict
